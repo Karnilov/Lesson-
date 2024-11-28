@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример использования основных стилей</title>
+    <style>
+        .example {
+            color: blue;           /* Цвет текста */
+            font-family: Arial;    /* Шрифт текста */
+            font-size: 16px;       /* Размер шрифта */
+            font-weight: bold;      /* Толщина шрифта */
+            text-align: center;     /* Выравнивание текста */
+            line-height: 1.5;       /* Высота строки текста */
+            margin: 20px;          /* Внешние отступы */
+            padding: 10px;         /* Внутренние отступы */
+            background-color: lightgray; /* Фоновый цвет */
+            border: 2px solid black; /* Рамка */
+            width: 300px;          /* Ширина элемента */
+            height: 150px;          /* Высота элемента */
+            display: block;         /* Блочный элемент */
+            position: relative;     /* Относительное позиционирование */
+            z-index: 10;           /* Уровень наложения */
+            opacity: 0.8;          /* Прозрачность */
+            cursor: pointer;        /* Стиль курсора */
+            box-shadow: 5px 5px 10px gray; /* Тень */
+            transform: rotate(5deg); /* Поворот */
+            transition: all 0.3s ease; /* Плавный переход */
+            overflow: auto;         /* Прокрутка содержимого */
+            white-space: nowrap;    /* Запрет переноса строк */
+            vertical-align: middle;  /* Вертикальное выравнивание */
+            float: left;            /* Обтекание слева */
+            clear: both;            /* Очистка обтекания */
+        }
+    </style>
+</head>
+<body>
+    <div class="example">
+        Это пример использования всех основных стилей. Наведите сюда курсор, чтобы увидеть изменение цвета фона.
+    </div>
+</body>
+</html>
